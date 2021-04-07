@@ -8,8 +8,6 @@ public class CooldownManager {
     /**
      * Returns false when cooldown is still running or nothing was found
      * Returns true when cooldown has exceded its limit and deletes the cooldown
-     * @param identifier
-     * @return
      */
     public boolean checkCooldown(String identifier) {
 
